@@ -2,6 +2,8 @@
 
 Creator: Helix Protocol
 
+<img src="logo.png" alt="Skill logo" width="160" height="160">
+
 Check whether earlier verification still applies after files, configuration, versions, or external state change; identify stale and unverifiable claims.
 
 Read [SKILL.md](SKILL.md) to use the workflow. Place this folder in your agent's documented skill location, or supply the Markdown instructions directly. Automatic discovery and tool access depend on the host. No runtime is required for Free.

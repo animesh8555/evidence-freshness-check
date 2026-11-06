@@ -1,6 +1,6 @@
 ---
 name: "evidence-freshness-check"
-description: "Check whether earlier verification still applies after files, configuration, versions, or external state change; identify stale and unverifiable claims."
+description: "Use when relying on earlier verification after files, configuration, versions, or external state may have changed. Check whether earlier verification still applies after files, configuration, versions, or external state change; identify stale and unverifiable claims."
 ---
 
 # Evidence Freshness Check
@@ -8,6 +8,12 @@ description: "Check whether earlier verification still applies after files, conf
 Check whether earlier evidence still supports a claim after its files, configuration, or external state changes.
 
 Use this when reusing an earlier check after changes or when evidence crosses a session boundary. It is unnecessary for a fresh, direct observation whose scope is already clear.
+
+## When to apply this workflow
+
+Use when relying on earlier verification after files, configuration, versions, or external state may have changed. If the host makes this skill available, use it for matching work without waiting for a tag.
+
+Before relying on the earlier conclusion, report whether its evidence is current, stale, or unverifiable. Recheck affected evidence where authorized and pause decisions that depend on an unresolved claim. Continue authorized work that does not depend on the unresolved result.
 
 ## Attach evidence to its scope
 
